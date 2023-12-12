@@ -9,31 +9,40 @@ public class Student_Constructor_Overloading {
 	//this, 
 
 	Student_Constructor_Overloading() {
+		//this("ss");
 		System.out.println("0-arg constrocr");
 	}
 
 	Student_Constructor_Overloading(int i) {
+		this();
 		System.out.println("1-arg constrocr (int)");
 	}
 
 	Student_Constructor_Overloading(String  n) {
-		System.out.println("0-arg constrocr (String) ");
+		this(100);
+		System.out.println("1-arg constrocr (String) ");
 	}
 	
 	// Parameterized Constructor
-	Student_Constructor_Overloading(int s, String n, String c) {
+	Student_Constructor_Overloading(int sno, String name, String collage) {
+	
+		this("St");//Constructor Chaining.
+		
 		System.out.println("3-parameterized const");
-		sno = s;
-		name = n;
-		collage = c;
+		
+	
+		this.sno = sno;
+		this.name = name;
+		this.collage = collage;
 		System.out.println("Constr");
 	}
 
 	public static void main(String[] args) {
 
 		Student_Constructor_Overloading st = new Student_Constructor_Overloading(101, "Rd", "XYZ");// st -- ojbect
-																									// reference
+																							// reference
 																									// varaible.
+		//Student_Constructor_Overloading st1 = new Student_Constructor_Overloading();
 		/*
 		 * st.name = "Gangadhar"; st.sno = 900; st.collage = "ABC";
 		 */
