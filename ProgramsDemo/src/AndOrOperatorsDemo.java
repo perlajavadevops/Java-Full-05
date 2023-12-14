@@ -2,7 +2,12 @@
 public class AndOrOperatorsDemo {
 
 	public static void main(String[] args) {
-		int a = 100;
+		int a = 99;
+		
+		if(a%2==0)
+			System.out.println("even");
+		if(a%2==1)
+			System.out.println("odd");
 			//false	 true
 		if(a > 90 || a >= 90 ) {
 			System.out.println("Yes. it sati...");
