@@ -8,10 +8,8 @@ public class Car extends Vehicle{
 		System.out.println("Car is running " + speedLimit);
 	}
 	 
-
-	/*
-	 * public void amtGear() {
-	 * System.out.println("Car is running with AMT "+speedLimit); }
-	 */
+	public void amtGear() {
+		System.out.println("Car is running with AMT " + speedLimit);
+	}
 
 }

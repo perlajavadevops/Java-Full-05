@@ -4,11 +4,24 @@ public class SingleInheritanceDemo {
 
 		Vehicle vehicle = new Vehicle();
 		vehicle.run();
+		vehicle.changeGear();
+		//vehicle.amtGear();
 		System.out.println(vehicle.speedLimit);
 
 		Car car = new Car();
 		car.run();
+		car.changeGear();
+		car.amtGear();
 		System.out.println(car.speedLimit);
+		
+		Vehicle car1 = new Car();
+		System.out.println(car1);
+		car1.run();
+		car1.changeGear();
+		//car1.amtGear();
+		System.out.println(car1.speedLimit);
+		
+		//Car car2 = new Vehicle();//it is not possible
 		/*
 		 * Car car = new Car(); car.run();//Runtime Poly
 		 * 
