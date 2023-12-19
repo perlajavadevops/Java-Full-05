@@ -25,7 +25,7 @@ public class MutliLevelInheritanceDemo {
         ev5.run();
         ev5.changeGear();
         //ev3.uniqueFeatures();
-
+ 
         if(ev5 instanceof NexonCar) {
         	System.out.println("yes....");
         }else {
