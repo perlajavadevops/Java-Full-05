@@ -2,19 +2,19 @@ public class SingleInheritanceDemo {
 
 	public static void main(String[] args) {
 
-		Vehicle vehicle = new Vehicle();
+		/*Vehicle vehicle = new Vehicle();
 		vehicle.run();
 		vehicle.changeGear();
 		//vehicle.amtGear();
-		System.out.println(vehicle.speedLimit);
+		System.out.println(vehicle.speedLimit);*/
 
 		Car car = new Car();
 		car.run();
-		car.changeGear();
+		//car.changeGear();
 		car.amtGear();
 		System.out.println(car.speedLimit);
 		
-		Vehicle car1 = new Car();
+		/*Vehicle car1 = new Car();
 		System.out.println(car1);
 		car1.run();
 		car1.changeGear();

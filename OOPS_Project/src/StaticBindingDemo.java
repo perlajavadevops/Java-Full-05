@@ -13,7 +13,7 @@ public class StaticBindingDemo {
 }
 
 class OtherStaticBinding{
-    public static void main(String[] args) {
+    public static void main(String[] args) {//
         StaticBindingDemo demo = new StaticBindingDemo();
        // System.out.println(StaticBindingDemo.sno);
         //demo.m();
