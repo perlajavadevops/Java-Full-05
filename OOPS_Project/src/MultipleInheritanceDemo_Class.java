@@ -10,14 +10,13 @@ class Parent2{
 	}
 }
 
-/*class Child extends Parent1, Parent2{
-	
-	@Override
-	public void fun() {
-		System.out.println("Child Fun method...");
-	}
-	
-}*/
+/*
+ * class Child extends Parent1, Parent2{
+ * 
+ * @Override public void fun() { System.out.println("Child Fun method..."); }
+ * 
+ * }
+ */
 public class MultipleInheritanceDemo_Class {
 
 }
