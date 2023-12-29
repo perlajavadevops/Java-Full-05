@@ -1,0 +1,41 @@
+arrays means... collection of similar type of data which we called as arrays.
+
+int[] numbers = 1,2,3,4,5 0 
+
+10.11
+
+arrays will start from 0 index.
+
+arrays size fixed.
+
+length arrays propert 
+
+arrays will allow to maintain duplicates..
+
+initialize values: 
+
+in signle 
+
+int[] numbers = {1,2,3,4,5,0};//delcaration+initialization
+				//1-0, 2-1, 3,-2 ,4-3, 5-4, 0-5
+int[] numbers_arra = new int[2];//declarting
+
+numbers_arra[0] = 89;
+numbers_arra[1] = 89;
+numbers_arra[0] = 89;
+numbers_arra[0] = 89;
+
+will get ArrayIndexofBoundsException ---> runtime exception.
+
+
+[]
+
+n*n/(n-1)
+
+n+(n-1)/n
+n/n+1
+
+number''
+
+
+String class session by day after tomorrow i.e Friday IST.

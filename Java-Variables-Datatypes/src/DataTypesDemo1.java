@@ -13,14 +13,14 @@ public class DataTypesDemo1 {
 	// \u0000 -->  
 	
 	public static void main(String[] args) {
-		System.out.println("int "+i);//
-		System.out.println("byte "+b);//
-		System.out.println("short "+s);//
-		System.out.println("long "+l);//
-		System.out.println("float "+f);//
-		System.out.println("double "+d);//
-		System.out.println("boolean "+bool);//
-		System.out.println("char :"+ch);
+		System.out.println("int "+i);//0
+		System.out.println("byte "+b);//0
+		System.out.println("short "+s);//0
+		System.out.println("long "+l);//0
+		System.out.println("float "+f);//0.0
+		System.out.println("double "+d);//0.0
+		System.out.println("boolean "+bool);//false
+		System.out.println("char :"+ch);// '/u0000'//  
 	}
 	
 }

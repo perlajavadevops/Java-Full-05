@@ -1,0 +1,82 @@
+String is its collection of sequence character is s
+
+Gangadhar  --> collection of sequence charaters in java langau as String
+
+
+2 data types --> premitive data types
+---> 8 --> byte, short, int, long, float, double, char, boolean.
+reference data types --> API 
+
+1. arrays, String, Object, Package.
+
+int a = 90;
+
+
+
+"Gangadhar"
+
+2 ways to string object.
+
+1. String literal
+
+String s1 = "Gangadhar";
+String s2 ="Hello";
+String s2 ="hello";
+
+String Constant Pool: 
+
+2. new keyword.
+
+
+
+why is string as object?
+
+"Manasi"  -->
+=====
+String class
+
+==========
+1. String is final class
+How to create String objects:
+2 wys to string objects
+1. By using String litlers
+
+String s1 = "Hi"//will be by SCP
+String s2 = "Hi"
+String s3 = "hi";
+
+//String Constant Pool:(SCP): 
+
+2. by new keyword
+
+==================
+StringBuffer and StringBuilder
+==========
+1. We can't modify once we created the string
+2. StringBuilder is not thread safe i.e multiple threads can access at a time
+
+1. StringBuffer
+2. StringBuilder --> thread safe //Multithreading -- synchronized
+
+StringBuffer:
+1. its thread safe.
+2. mutable, we can modified.
+
+StringBuilder
+1. its not thread safe.
+2. mutable, we can modified.
+
+convert string to char array? --> toCharArray()
+convert string to byte array? --> getBytes()
+
+StringBuffer and StringBuilder
+
+//Write a program to vlaidate phone using regular.
+////Write a program to vlaidate passowrd using regular
+
+//Reverse a string using normal for loop
+////Reverse a string using recursive function (method)
+////Reverse a string using stringbuffer reverse method
+// Write a pgram to check given string is palindrom or not
+// Write a pgram to check given string is amstrong or not
+

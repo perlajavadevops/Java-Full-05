@@ -3,7 +3,7 @@ package com.pgr;
 public class PublicDemo {
 
 	public int sno = 90;// default variable
-
+ 
 	public void m() {// default method
 		System.out.println("M method is protected method in the ProtectedDemo class....");
 	}
