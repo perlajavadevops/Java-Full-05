@@ -18,6 +18,10 @@ final class CustomeImmuable{
 		return speed;
 	}
 	
+	public CustomeImmuable concat(int speed) {
+		return new CustomeImmuable(speed+this.speed);
+	}
+	
 	
 	
 }
@@ -27,6 +31,7 @@ public class CustomImmutableClassDemo {
 
 	public static void main(String[] args) {
 		CustomeImmuable customeImmuable = new CustomeImmuable(100);
+		customeImmuable =  customeImmuable.concat(100);
 		System.out.println(customeImmuable.getSpeed());
 	}
 }

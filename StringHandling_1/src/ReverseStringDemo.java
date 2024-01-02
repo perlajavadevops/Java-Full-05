@@ -14,10 +14,14 @@ public class ReverseStringDemo {
 	public static void main(String[] args) {
 		System.out.println(reverseString("Hello"));
 
-		String s1 = "Hi";// iH
+		String s1 = "Hello";// iH
 		for (int i = s1.length() - 1; i >= 0; i--) {
 			System.out.print(s1.charAt(i));
-
+		}
+		System.out.println("============");
+		char[] chArr = s1.toCharArray();
+		for (int i = chArr.length-1; i >=0; i--) {
+			System.out.print(chArr[i]);
 		}
 	}
 

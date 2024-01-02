@@ -10,9 +10,9 @@ public class StringBufferDemo {
 
 		//System.out.println(sb.length());
 		
-		//System.out.println(sb.reverse());//alreP
-		System.out.println(sb.delete(1, 3));
-		System.out.println(sb.append(" Gangi Reddy"));
+		System.out.println(sb.reverse());//alreP
+		//System.out.println(sb.delete(1, 3));
+		//System.out.println(sb.append(" Gangi Reddy"));
 		
 		
 		

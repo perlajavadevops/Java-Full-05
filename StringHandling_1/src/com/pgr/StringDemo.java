@@ -7,16 +7,17 @@ public class StringDemo {
 		String s2 = "Hi";
 		String s3 = "hi";
 		String s4 = new String("Hi");
+		//s4 = s4.intern();
 		/*
 		 * System.out.println(s1.hashCode()); System.out.println(s2.hashCode());
 		 * System.out.println(s3.hashCode()); System.out.println(s4.hashCode());
 		 */
-		System.out.println(s1.indexOf("H"));
+		//System.out.println(s1.indexOf("H"));
 		System.out.println("===== == =====");
-		System.out.println(s1==s2);//true
-		System.out.println(s1==s3);//false
+		//System.out.println(s1==s2);//true
+		//System.out.println(s1==s3);//false
 		System.out.println(s1==s4);//false
-		System.out.println("=====Equals Method=====");
+		/*System.out.println("=====Equals Method=====");
 		System.out.println(s1.equals(s2));//true
 		System.out.println(s1.equals(s3));//false
 		System.out.println(s1.equals(s4));//true
@@ -35,6 +36,6 @@ public class StringDemo {
 		System.out.println(s1.compareToIgnoreCase(s2));//0
 		System.out.println(s1.compareToIgnoreCase(s3));//0
 		System.out.println(s1.compareToIgnoreCase(s4));//0
-		
+		*/
 	}
 }

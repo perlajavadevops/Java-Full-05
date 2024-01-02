@@ -4,12 +4,14 @@ public class StringRegularExpr {
 	
 	public static void main(String[] args) {
 		
-		String email = "username@domain.com";
+		String email = "99usernameAFFA.3333333@domain.com";
 		String password = "Password@123";//
 		
+		String mailformat = "/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/";
+
 		String regularExp = "/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/";
 		
-		System.out.println(email.matches(regularExp));
+		System.out.println(email.matches(email));
 		
 		Pattern patter = Pattern.compile(regularExp);
 		
@@ -17,7 +19,7 @@ public class StringRegularExpr {
 		System.out.println(flag);
 		
 		String s1 = " Hi hello ";
-		System.out.println(s1);//split, trime, matches, toCharArr, getBytes...
+		//System.out.println(s1);//split, trime, matches, toCharArr, getBytes...
 		
 		//covert string to numbers(flaot, double, int, short, long)
 		
@@ -32,7 +34,7 @@ public class StringRegularExpr {
 		
 		String s4 = "Welcome Hello Java Lang";
 		
-		System.out.println(s4.substring(0,7));
+		System.out.println(s4.substring(8, s4.length()));
 		
 		
 	}
