@@ -1,0 +1,47 @@
+1. Exception : Abnormal termination
+2. 2 types exceptions: checked exceptions and unchecked exceptions 
+3. errors JVMOutOfMemory , StackOverFlowError, 100MB(
+
+
+Checked Exception: at the time compilation our exceptions related resolved then we have it as checked exceptions.
+Un-Checked Exception: at runtime(we execute) 
+
+Exception classes: Throwable
+
+Exception	
+
+exception handling pur: try, catch, finally, throw, throws //custom exception
+
+try{//try block
+  ===
+  business logic
+  
+  try{
+  
+  } catch(){
+  
+  } 
+}catch(){
+
+}catch(){
+}
+finally{
+ // close connection 
+ //DB Connections and IO(Input/Output) stream connections
+ //finally will exectue always(
+}
+
+=============
+Exception Propagation:
+throw: will throw an runtime execp and compipl time (checked and un checked)
+throws: declaring the exception in the method defination.(Checked exception)
+
+==================================
+Custome Exceptions:
+
+Exceptional Handling with Method Overriding
+===============
+Multi threading
+
+
+catch or finally

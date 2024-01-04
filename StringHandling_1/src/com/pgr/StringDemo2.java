@@ -3,20 +3,21 @@ package com.pgr;
 public class StringDemo2 {
 
 	public static void main(String[] args) {
-		String username = "Gangadhar Java";
+		String username = null;
 		String password = "xyx@123";
 		
 		//System.out.println(username.contains("Raja"));
 		//System.out.println(username);
 		//System.out.println(username.trim());
 		//System.out.println(username.length());
-		//System.out.println(username.isEmpty());
+		System.out.println(username.isEmpty());
 		
 		//covert string to char array...
-		/*
-		 * char[] chArray = username.toCharArray(); for (int i = 0; i < chArray.length;
-		 * i++) { System.out.println(chArray[i]); }
-		 */
+		
+		char[] chArray = username.toCharArray();
+		for (int i = 0; i < chArray.length; i++) {
+			System.out.println(chArray[i]);
+		}
 
 		//covert string to byte array...
 
