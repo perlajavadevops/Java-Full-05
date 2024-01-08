@@ -9,7 +9,7 @@ public class ExceptionDemo1 {
 			System.out.println(s.length());
 		} catch (NullPointerException ne) {
 			ne.printStackTrace(); //logging
-		    System.err.println(ne.getMessage());
+		   // System.err.println(ne.getMessage());
 		}
 
 		System.out.println("Completed");

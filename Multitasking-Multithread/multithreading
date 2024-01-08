@@ -1,0 +1,64 @@
+Multi Task:
+
+process based
+
+thread based
+
+
+1. lightweight
+2. communication b/t threads it is low.
+3. thread will running in stack.
+4. threads share the same address memory.
+
+
+What is thread?
+Thread is lightweight subprocess, it small unit of processing. it will execute separatly or 
+
+Types of threads: 
+
+1. user defined thread.
+2. deamon thread 
+
+Thread Life cycle:
+
+new state   ---> Thread th = new Thread();
+runnable state  --> th.start() --> run();
+non runnable state -->th.sleep(1000). wait(). stop() --> 
+destroyed state -->
+
+How many ways to create thread?
+
+1. By exteding Thread class -->
+2. An implementing with Runnable interface --> run()
+ 
+can we call run method direclty without start();
+
+Syncronization:
+1. Object level locking
+2. Class Level locking
+
+Syncronization is option where we wannt allow only one thread to be access the shared resource.
+
+Uses: 
+1. To prevent thread interference
+2. To prevent Consistancy problem
+
+They are 2 types: process syc, thread syc
+
+Thread Syncronization:
+
+1. Mutual Exclusive:
+	1. Syncronized method
+	2. Syncronized block
+	3. staitc Syncronization: 
+
+2. Co-operation (inter-thread communication): 
+	wait(), notify, notifyAll
+	
+What is Polling? 
+1. Object level locking
+	lock is associated with Obect.
+2. Class Level locking:
+	lock is associated with Class.
+
+Dead Lock Situation:

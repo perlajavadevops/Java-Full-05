@@ -1,0 +1,34 @@
+inner classes
+
+
+nested classes:
+	static nested clasess
+	
+	non-static inner classes
+		instance classes (member inner class)
+		local inner classes
+		Anonmous inner class		
+
+static clasess
+instance classes
+local classes
+Anonmous class
+
+
+class Outer{
+
+	class A{
+	
+	}
+
+}
+
+Outer.class
+Outer$A.class
+
+
+Why need of inner classes or nested classes? 
+1. 
+
+
+//Java is call by value or call by reference?
