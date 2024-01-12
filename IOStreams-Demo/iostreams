@@ -1,0 +1,49 @@
+IOStreams --> 
+
+I -->Input o-> Output
+
+Streams --> connection between source and destination
+
+Checked Exceptions
+
+IO --> it is used to process the input and output
+
+System.out: Standard Output stream
+System.err: error stream
+System.in: input stream
+
+OutputStream: write the data into destination
+InputStream: read the data from source
+
+Byte streams
+character streams
+
+FileWriter
+FileReader
+
+PrintWriter
+
+PrintStream
+
+
+IOStreams related connection or opend streams should closed.
+
+Serialization
+
+Inner classes
+Object -- clone();
+
+Serialization:
+ it is mechanism of writing the state of object into a byte-stream is known as serialization.
+ de-serialization is a mech to covert byte-stream to java object.
+ It is used in Hibernate, Spring, JPA...
+ 
+ The main advn is to travel the objects state on the network 
+ 
+ Serializable is marker interface also it empty interface.
+ ObjectOutputStream
+ ObjectInputStream
+ 
+ 
+ If parent class implemnt Serial and  Does a child class of clas tht imple from seriv or not?
+ 
