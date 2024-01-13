@@ -5,10 +5,11 @@ import java.io.ObjectInputStream;
 public class DeSerializationDemo {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
-		FileInputStream fis = new FileInputStream("employee3.ser");
+		FileInputStream fis = new FileInputStream("employee6.ser");
 		ObjectInputStream bis = new ObjectInputStream(fis);
 		
 		Employee emp = (Employee) bis.readObject();
+		
 		System.out.println(emp.getEmpNo());
 		System.out.println(emp.getName());
 		System.out.println(emp.getSalary());

@@ -5,17 +5,17 @@ public class Employee implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 102;
+	//private static final long serialVersionUID = 111111111111111111L;
 
 	private int empNo;
-	private static String name;
-	private double salary;
+	private  static  String name;
+	private /* final transient */  double salary;
 	private transient long phoneNumber;
 	
 	
-	public Employee() {
-		// TODO Auto-generated constructor stub
-	}
+	/*
+	 * public Employee() { // TODO Auto-generated constructor stub }
+	 */
 
 	
 	public Employee(int empNo, String name, double salary, long phoneNumber) {
@@ -45,9 +45,9 @@ public class Employee implements Serializable {
 		return salary;
 	}
 
-	public void setSalary(double salary) {
-		this.salary = salary;
-	}
+	/*
+	 * public void setSalary(double salary) { this.salary = salary; }
+	 */
 
 	public long getPhoneNumber() {
 		return phoneNumber;
