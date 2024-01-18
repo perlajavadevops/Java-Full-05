@@ -1,0 +1,130 @@
+1. Collections will handle the homegenious and hetrogenious data also
+2.Collections will List data of which can have duplicates
+3. Collections are available in the java.util packagge
+4. <E> --> generics
+
+List          						Set
+Duplicates							No duplicates
+ArrayList, LinkedList, 				HashSet, TreeSet, LinkedHashSet
+Vector
+normal for loop						no
+for-each loop						yes
+Iterator							Iterator
+ListIterator
+								
+1. ArrayList --> arrays(Dynamic Arrays
+
+HashMap, LinkedHashMap, TreeMap
+
+
+ArrayList --> 
+1. we can store different type of data and as well as we can store similar type of data
+2. ArrayList is having feature called danamic array
+3. ArrayList will to store duplicates
+4. ArrayList will store the data in a index based(start from 0 index)
+
+
+//Generics
+1. Type casting execption
+2.
+
+1. ArrayList will maintain insertion order
+2. ArrayList will to store duplictes
+3. We can insert null object to ArrayList.
+4. We can access ArrayList eleements in random access
+5. ArrayList will work dyanmic array for 
+
+LinkedList: LinkedList is also same ArrayList
+1. Storing elements in LinkedList, it will link b/w nodes(data) (Node Reference Box(1
+2. DoubleLinkedList (Singly linked list, double linked list, circular linked list)
+
+LIST: 
+ArrayList, LinkedList, Vector
+
+========================
+java8: 2days
+JDBC: 3 days
+Servlets: 4 days
+JSP: 3 to 4 days
+Hibernate: 3 days
+Spring 4 to 5 days
+Rest API: 2 to 3 days
+Maven, Junit, Json, GIT(2), Log4J(1 to 2 hours) (6: 30 AM IST) 5PM, wed, thur (6:30 AM)
+
+Mod, wed, thur = 6:30 AM IST
+Tes, fri, sat, sun: 5 PM
+
+
+Map: Map interface <k,v> --entry
+HashMap, LinkedHash, TreeMap
+
+=================
+Collection framework
+values
+null values
+List
+1. it will store duplicate
+2. null reference values
+3. it will maintain insertion order
+4. random access(randomly we can access the data)
+ArrayList --
+1. internally using an dyanamic array datastructure
+LinkedList:
+1. Internally will use double-linked-list datastructure
+
+Vector(1.0) it is thread safe (synchronization)
+
+Set
+========
+1. wil not allow duplicates
+2. will not maintain any order
+3. set based classes allow us to store only 1 null value
+HashSet -- no order
+will internal use HashMap to store elements 
+LinkedHashSet - order 
+will internal use LinkedHashMap to store elements
+TreeSet -- natural order(ascending order)
+Will internal use TreeMap to store elements
+We can not add null objects into treeset
+
+Stack
+Queue
+
+============
+
+Comparator
+Map based collection framework
+apple (Key)= its fruit(value)
+===================================
+
+HashMap () -->Internally using HashSet
+===
+LinkedHashMap --> order insertion 
+TreeMap -- TreeSet
+...
+...
+
+
+
+=============================================================
+String s = "abcdefabcghiabcdef";
+a =
+b =
+c = 
+d = 
+e = 
+f =
+g = 
+i = 
+h =
+
+================================================================
+using threads write consumer and producer example: 
+
+================================
+
+permutetion combitions:
+abc =>
+
+=====================================================================
+JDBC: 

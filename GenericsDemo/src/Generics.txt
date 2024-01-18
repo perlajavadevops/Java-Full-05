@@ -1,0 +1,5 @@
+1.using generic we can type safety
+2. we can avoid class cast excetpion
+3. we can use generics for collection frame work to maintain type safety(single(similar) type of data)(homegenious)
+4. sytanx: <>
+5. we can use generics for methods, classes, 

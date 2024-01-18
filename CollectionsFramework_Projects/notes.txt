@@ -1,0 +1,121 @@
+Collectins
+
+List, Set, Queue, Stack, Map
+
+Iterable -- java.lang package.
+ 
+Collection -- interface
+
+Collections -- class 
+
+java.util
+
+List based collections:
+
+1. will random access
+2. will insertion order
+3. size dynamically size get increase
+4. duplicate store
+5. any type we store if you dont use generics
+6. ArrayList, Vector, LinkedList, Stack
+
+ArrayList: internally will dynamic array to increase size of the arraylist 
+default size 10 
+Not thread-safety
+
+LinkedList:
+Not thread-safety
+Interanlly it will double linkedlist DS
+
+================
+10 --> Object --> Integer
+
+Generics Concept
+================
+1. Type Safty
+2. <>
+3. To avoid ClassCastException
+
+
+What is difference b/w ArrayList, Vector, LinkedList?
+Which is best in order to select 
+
+
+Set: 
+HashSet, LinkedHashSet, TreeSet.....
+
+1. No duplicates allowed.
+2. No Order
+3. No Random access
+4. we can't use ListIterator for retrieving
+5. We can't use normal for loop
+
+HashSet: 
+1. Will allow one null value
+2. Internally will use HashMap to avoid the duplicates
+3. No order
+LinkedHashSet: Insertion Order
+2. Internally will use LinkedHashMap to avoid the duplicates
+TreeSet:
+ Will not allow one null value
+ 2. Internally will use TreeMap to avoid the duplicates
+ 3. Accesending order
+
+
+HashMap, LinkedHashMap, TreeMap
+
+Generics: 
+1. Type safty purpose in the collections i.e ClassCastException
+2. We can create Generic class so that we 
+3. We can create Generic method so that 
+
+
+List Based: ArrayList, LinkedList, Vector, Stack.
+Collections 
+Converting List to Arrays and vice verse.
+Generics
+
+Set: 
+1. it Will not allow duplicates.
+2. HashSet Does maintain order whereas LinkedHashSet will maintain insertion order and TreeSet will maintain the ascending order
+3. HashSet will not will allow duplicate null objects and only one null obj.
+4. LinkedHasSet and HashSet both are not thread safe.
+5. TreeSet will not allow null objs at all.
+6. HashSet will use internally HashMap to avoid duplicate values.
+7. LinkedHashSet --> LinkedHashMap
+8. TreeSet --> TreeMap
+9. Set based classes are not random access.
+
+by default our wrapper classes and String class implemented by Comparable interface.
+
+Sorting: 
+
+Comparable interface: 
+ compareTo()
+Comparator interface:
+ comapare(Object o1, Object o2)
+ 
+ 
+ 
+Map: 
+
+1. Map <key, value> --> entry -->
+2. Map interface ---> Inner interface Entry
+3. HashMap, LinkedHashMap, TreeMap
+4. HashMap --> 
+1. it is not syncronized
+2. It will allow the 1 null key
+3. there is no order 
+4. keySet, entrySet, values
+
+LinkedHashMap:
+
+Insertion order for keys only
+
+TreeMap:
+  Acending of keys, 
+  It will not allow null keys and but null values will allows 
+ConcurrentHashMap:
+  It will not allow null keys and null values
+
+
