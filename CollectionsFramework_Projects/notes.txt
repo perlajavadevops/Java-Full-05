@@ -45,7 +45,7 @@ Set:
 HashSet, LinkedHashSet, TreeSet.....
 
 1. No duplicates allowed.
-2. No Order
+2. No Order will be maintiand HashSet
 3. No Random access
 4. we can't use ListIterator for retrieving
 5. We can't use normal for loop
@@ -54,6 +54,8 @@ HashSet:
 1. Will allow one null value
 2. Internally will use HashMap to avoid the duplicates
 3. No order
+4. It is not thread safe.
+
 LinkedHashSet: Insertion Order
 2. Internally will use LinkedHashMap to avoid the duplicates
 TreeSet:

@@ -49,7 +49,7 @@ public class WildCardGenericDemo {
 		List<Integer> list4 = new ArrayList<Integer>();
 		list4.add(232);
 		
-		//drawShapes(lists);
+		//drawShapes(list4);
 
 
 	}

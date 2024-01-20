@@ -13,21 +13,25 @@ public class HashMapDemo {
 		map1.put("TwoT", "Siva");
 		map1.put("TwoT", "Siva ");
 		map1.put("TwoQ", "Teja");
-
+		map1.put(null, null);
+		
 		HashMap<String, String> map2 = new HashMap<String, String>();
 		map2.put("Three", "Gangi");
 		map2.put("Five", "Perla");
 		
-		map1.putAll(map2);
+		//System.out.println(map1.size());
+		//map1.putAll(map2);
+		
 		/*
-		 * System.out.println(map1.containsValue("Perla"));
-		 * System.out.println(map1.containsKey("Five"));
+		 * System.out.println(map2.containsValue("Perla"));
+		 * System.out.println(map2.containsKey("Five"));
 		 */
 		
-		map1.clear();
-		System.out.println(map1.isEmpty());
+		//map1.clear();
+		//System.out.println(map1.isEmpty());
 		
-		map1.remove("Five");
+		//map1.remove("TwoQ");
+
 		Set<Map.Entry<String, String>> set = map1.entrySet();
 
 		Iterator<Map.Entry<String, String>> itr = set.iterator();
@@ -35,19 +39,26 @@ public class HashMapDemo {
 			Map.Entry<String, String> type = itr.next();
 			System.out.println(type.getKey() + " : " + type.getValue());
 		}
-		// Set<String> set = map1.keySet();
 
-		/*
-		 * Iterator<String> itr = set.iterator(); while (itr.hasNext()) { String type =
-		 * (String) itr.next(); System.out.println(type); }
+		/* Set<String> set = map1.keySet();
+
+			Iterator<String> itr = set.iterator();
+			while (itr.hasNext()) {
+				String type = (String) itr.next();
+				System.out.println(type);
+			}
 		 */
 
-		/*
-		 * ArrayList<String> values = new ArrayList<String>(); Collection<String> coll =
-		 * map1.values(); Iterator<String> itr = coll.iterator(); while (itr.hasNext())
-		 * { String type = (String) itr.next(); values.add(type);
-		 * System.out.println(type); }
-		 */
+		/*ArrayList<String> values = new ArrayList<String>();
+		Collection<String> coll = map1.values();
+		//ArrayList<String> coll = (ArrayList<String>) map1.values();
+		Iterator<String> itr = coll.iterator();
+		while (itr.hasNext()) {
+			String type = (String) itr.next();
+			values.add(type);
+			System.out.println(type);
+		}*/
+
 		// System.out.println(keySets);
 		// System.out.println(map1);
 	}

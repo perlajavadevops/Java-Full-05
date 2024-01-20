@@ -23,9 +23,10 @@ public class ArrayListDemo {
 		 */
 		
 		
-		/*
-		 * for (Object object : al) { System.out.println((Integer)object); }
-		 */
+		
+		for (Object object : al) {
+			System.out.println((Integer) object);
+		}
 		 
 	}
 

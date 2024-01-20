@@ -1,4 +1,5 @@
 class Generic<T> {
+	
 	T obj;
 
 	T getObj() {
@@ -11,6 +12,17 @@ class Generic<T> {
 
 }
 
+class WithoutGeneric {
+	int obj;
+	
+	int getObj() {
+		return obj;
+	}
+
+	void add(int obj) {
+		this.obj = obj;
+	}
+}
 public class GenericClassDemo {
 
 	public static void main(String[] args) {
@@ -20,5 +32,9 @@ public class GenericClassDemo {
 		Generic<Integer> gen1 = new Generic<Integer>();
 		gen1.add(12);
 		System.out.println(gen1.getObj());
+		
+		WithoutGeneric withoutGeneric = new WithoutGeneric();
+		withoutGeneric.add(10);
+		System.out.println(withoutGeneric.getObj());
 	} 
 }

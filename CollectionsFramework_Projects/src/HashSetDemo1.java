@@ -12,21 +12,24 @@ public class HashSetDemo1 {
 		set.add("Dhruvika");
 		set.add("Dhruvika");
 
-		// System.out.println(set.add("Dhruvika"));
+	   // System.out.println(set.add("Dhruvika111"));
 		set.add(null);
 		set.add(null);
 
-		/*
-		 * for (String obj : set) { System.out.println(obj); }
-		 */
+		
+		for (String obj : set) {
+			System.out.println(obj);
+		}
+		 
 
 		Iterator<String> itr = set.iterator();
 		while (itr.hasNext()) {
 			//set.remove("Dhatrika");
+			//itr.remove();
 			System.out.println(itr.next());
-			itr.remove();
+			
 		}
-
+		 
 	}
 
 }

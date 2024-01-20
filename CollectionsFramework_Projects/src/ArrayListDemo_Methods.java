@@ -38,10 +38,10 @@ public class ArrayListDemo_Methods {
 		//converting arrays to List 
 		 List<Object> list = Arrays.asList(arr);
 
-		 //Collections.sort(group1);
-
+		
+		 Collections.sort(group1);
 		// group1.sort
-		 group1.addAll(group2);
+		// group1.addAll(group2);
 
 		 //System.out.println(group1.containsAll(group2));
 		 

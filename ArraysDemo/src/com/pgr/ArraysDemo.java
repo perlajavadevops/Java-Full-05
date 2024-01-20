@@ -4,7 +4,7 @@ public class ArraysDemo {
 
 	public static void main(String[] args) {
 		int[] numbers = {1,2,3,4,5};
-		//numbers[5] = 1;//ArrayIndexOutOfBoundsException
+		numbers[5] = 1;//ArrayIndexOutOfBoundsException
 		
 		//System.out.println(numbers.length);
 		//System.out.println(numbers[5]);
