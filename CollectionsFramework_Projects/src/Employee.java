@@ -91,9 +91,15 @@ public class Employee implements Comparable<Employee> {
 	public int compareTo(Employee o) {
 		// return name.compareTo(o.getName());
 
-		if (salary > o.getSalary()) {
+		//acending order
+		/*
+		 * if (salary > o.getSalary()) { return 1; } else if (salary < o.getSalary()) {
+		 * return -1; } else { return 0; }
+		 */
+		//decending order
+		if (o.getSalary() > salary) {
 			return 1;
-		} else if (salary < o.getSalary()) {
+		} else if (o.getSalary() < salary) {
 			return -1;
 		} else {
 			return 0;

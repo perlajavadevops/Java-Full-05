@@ -29,12 +29,11 @@ public class LinkedHashMapDemo1 {
 		// System.out.println(map.isEmpty());
 
 		// to get only keys
-		
-		Set<String> setKeys = map.keySet();
-		Iterator<String> itr = setKeys.iterator();
-		while (itr.hasNext()) {
-			System.out.println(itr.next());
-		}
+
+		/*
+		 * Set<String> setKeys = map.keySet(); Iterator<String> itr =
+		 * setKeys.iterator(); while (itr.hasNext()) { System.out.println(itr.next()); }
+		 */
 
 		// to get only values
 		/*
@@ -46,14 +45,15 @@ public class LinkedHashMapDemo1 {
 		 * while (itr.hasNext()) { System.out.println(itr.next()); }
 		 */
 		// to get keys, values
-		/*
-		 * Set<Entry<String, Integer>> setOfEntry = map.entrySet();
-		 * 
-		 * Iterator<Entry<String, Integer>> itr = setOfEntry.iterator();
-		 * 
-		 * while (itr.hasNext()) { Entry<String, Integer> entry = itr.next();
-		 * System.out.println(entry.getKey() + ": " + entry.getValue()); }
-		 */
+
+		Set<Entry<String, Integer>> setOfEntry = map.entrySet();
+
+		Iterator<Entry<String, Integer>> itr = setOfEntry.iterator();
+
+		while (itr.hasNext()) {
+			Entry<String, Integer> entry = itr.next();
+			System.out.println(entry.getKey() + ": " + entry.getValue());
+		}
 
 	}
 }

@@ -18,7 +18,7 @@ public class TreeMapDemo2 {
 		map.put("Servlet", 3);
 		map.put("Rest", 4);
 		map.put("Spring", 1);
-
+		//map.put(null, 1);
 		map.put("Hibernate", null);
 
 		map.put("JDBC", null);

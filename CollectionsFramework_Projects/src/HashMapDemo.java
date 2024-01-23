@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class HashMapDemo {
@@ -31,14 +32,30 @@ public class HashMapDemo {
 		//System.out.println(map1.isEmpty());
 		
 		//map1.remove("TwoQ");
+		
+		/*
+		 * for(int i = 0; i<map1.size(); i++) { System.out.println(map1.get(i)); }
+		 */
+		/*
+		 * for (Map.Entry<keyType, valType> entry : map.entrySet()) { keyType key =
+		 * entry.getKey(); valType val = entry.getValue();
+		 * 
+		 * }
+		 */
 
-		Set<Map.Entry<String, String>> set = map1.entrySet();
+		
+		  Set<Map.Entry<String, String>> set = map1.entrySet();
 
-		Iterator<Map.Entry<String, String>> itr = set.iterator();
-		while (itr.hasNext()) {
-			Map.Entry<String, String> type = itr.next();
-			System.out.println(type.getKey() + " : " + type.getValue());
-		}
+			/*
+			 * for (Iterator<Entry<String, String>> iterator = set.iterator();
+			 * iterator.hasNext();) { Entry<String, String> entry = iterator.next();
+			 * System.out.println(entry.getKey() + " : " + entry.getValue()); }
+			 */
+		/*
+		 * Iterator<Map.Entry<String, String>> itr = set.iterator(); while
+		 * (itr.hasNext()) { Map.Entry<String, String> type = itr.next();
+		 * System.out.println(type.getKey() + " : " + type.getValue()); }
+		 */
 
 		/* Set<String> set = map1.keySet();
 
