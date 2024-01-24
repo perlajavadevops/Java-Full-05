@@ -1,0 +1,26 @@
+Funcational Interface: WIll have only one abstrct method 
+1. can we define more than 1 abstract method? no
+2. can we define normal method FI? no
+2. can we define default and static methods FI? Yes
+
+@FuncationalInterface 
+
+Why default and static method in interface?
+
+Lambda expresion contains of 3 components
+  1. Arugumetents  list
+  2. Arrow token
+  3. body
+  
+  syntax:  () -> {
+  				//body
+  			}
+  			
+ Lambda expresion is altertive for anomous clss
+ 
+ 1. Functional interface
+ 2. default and static methods in the interface
+ 3. Lambda expression
+ 4. Method Reference
+ 5. Optional Class
+ 
