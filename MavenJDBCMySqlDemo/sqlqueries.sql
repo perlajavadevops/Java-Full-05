@@ -49,3 +49,9 @@ DELIMITER &&
 	update employee set name=name, salary=salary where empno=empno;     
 	end &&  
 	DELIMITER ;   
+	
+CREATE TABLE `emp_date` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `creation_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=106 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
